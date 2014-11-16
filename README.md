@@ -7,4 +7,4 @@ yoBowl is a pet bowl which [YO]es when it's empty.
 #### Source code
 The short python script is available
 
-[YO]:http://www.justyo.com
+[YO]:http://www.justyo.co
