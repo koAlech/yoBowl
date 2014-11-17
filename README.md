@@ -2,7 +2,7 @@
 yoBowl is a pet bowl which [YO]es when it's empty.
 
 #### Prototype diagram
-![alt tag](http://url/to/img.png)
+![prototype diagram](http://yobowl.me/img/Proto-B-2.png)
 
 #### Source code
 The short python script is available
