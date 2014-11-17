@@ -1055,3 +1055,13 @@
     	margin-left: auto;
     	margin-right: auto;
 	}
+
+.copyright {
+  background: #f5f5f5;
+}
+.copyright a {
+  color: #16a085;
+}
+.copyright p {
+  max-width: 100%;
+}
