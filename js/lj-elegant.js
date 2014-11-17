@@ -32,7 +32,7 @@
     // Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
     $('#subscribe').ajaxChimp({
       language: 'lj',
-      url: 'http://the-lumberjacks.us8.list-manage1.com/subscribe/post?u=1642d6ac88961ed4fdb6abb3d&id=0b8c709eea'
+      url: 'http://yobowl.us9.list-manage2.com/subscribe/post?u=348cb22181693e155441d84ef&id=a423407d64'
     });
 
     // Mailchimp translation
