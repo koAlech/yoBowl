@@ -1041,5 +1041,13 @@
 			text-align: center;
 			font-size: 1em;
 		}
+	}
+	#protopics {
+		text-align: center;
+	}
 
+	#protopics img {
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
 	}
