@@ -466,8 +466,8 @@
 	}
 
 	.subscribe > .container {
-		padding-top: 150px;
-		padding-bottom: 116px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 	.lj-subscribe-title h2 {
@@ -958,6 +958,10 @@
 		/* 7. SUBSCRIBE */
 	    
 		.lj-subscribe-title {
+			text-align: center;
+		}
+
+		.lj-subscribe-subtitle {
 			text-align: center;
 		}
 
