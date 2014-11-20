@@ -1065,3 +1065,42 @@
 .copyright p {
   max-width: 100%;
 }
+#yobutton {
+	text-align: center;
+	margin-top: 20px;    
+}
+#A_2:hover{
+	background-color: #FFF;
+	color: #9b59b6;	
+}
+#A_2 {
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: #9b59b6; 	
+    cursor: pointer;
+    display: inline-block;
+    height: 52px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 151px;
+    perspective-origin: 75.5px 26px;
+    transform-origin: 75.5px 26px;
+    border: 2px solid rgb(242, 242, 242);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal normal normal 24px/34.2857170104981px Raleway;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 6px 12px;
+    transition: all 0.25s ease 0s;
+}/*#A_2*/
+
+#SPAN_3 {
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 24px/34.2857170104981px Raleway;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#SPAN_3*/
