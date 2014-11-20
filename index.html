@@ -129,14 +129,32 @@
     <div class="container">
       <div class="row">
         <!-- SUBSCRIBE TITLE -->
-        <div class="col-sm-12 col-md-12 lj-subscribe-title" data-scroll-reveal="wait 0.25s, then enter left and move 40px over 1s">
+        <div class="col-sm-12 col-md-6 lj-subscribe-title" data-scroll-reveal="wait 0.25s, then enter left and move 40px over 1s">
           <h2>yoBowl is <span>cool</span>.</h2>
-          <p>Obsessed with yoBowl?<br />
-          Wanna get your own unique one?<br />
-          just give us a YO and will let you know when we are mass producing the sweetie :)</p>
-          <div id="yo-button"></div>
+          <p>Obsessed with yoBowl? Wanna get your own unique one?<br />
+          Subscribe by YO or email and will let you know when we are mass producing the sweetie :)</p>
         </div>
         <!-- /SUBSCRIBE TITLE -->
+        <!-- SUBSCRIBE FORM -->
+         <div class="col-sm-12 col-md-6 lj-subscribe-form" data-scroll-reveal="wait 0.5s, then enter top and move 40px over 1s">
+          <form id="subscribe">
+            <div class="clearfix">
+              <input type="text" value="" name="subscribe-email" id="subscribe-email" placeholder="Enter your e-mail here">
+              <input type="submit" value="Get updates" name="subscribe-submit">
+            </div>
+            <label for="subscribe-email" class="lj-subscribe-message"></label>
+          </form>
+          <form action="http://api.justyo.co/yo/" method="post" target="hiddenFrame">
+            <div class="clearfix">
+              <input style="text-transform: uppercase;" type="text" value="" name="username" id="username" placeholder="Enter your YO username" />
+              <input type="hidden" value="4ee5f4ee-da18-4884-a5c8-06c2ac838524" name="api_token" id="api_token" />
+              <input type="submit" value="Get YO'd" name="subscribe-submit" />
+            </div>
+          </form>
+          <iframe name="hiddenFrame" style="position:absolute; top:-1px; left:-1px; width:1px; height:1px;"></iframe>
+         </div>
+         <!-- /SUBSCRIBE FORM -->
+
       </div>
     </div>
   </div>
